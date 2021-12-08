@@ -1,0 +1,15 @@
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.csproj.AssemblyReference.cache
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\MainWindow.g.cs
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\App.g.cs
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame_MarkupCompile.cache
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame_MarkupCompile.lref
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\bin\Debug\HardestGame.exe.config
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\bin\Debug\HardestGame.exe
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\bin\Debug\HardestGame.pdb
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\MainWindow.baml
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.g.resources
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.Properties.Resources.resources
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.csproj.GenerateResource.cache
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.csproj.CoreCompileInputs.cache
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.exe
+C:\Users\kiyon\source\repos\HardestGame\HardestGame\obj\Debug\HardestGame.pdb

@@ -1,0 +1,49 @@
+﻿<Window x:Class="HardestGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HardestGame"
+        mc:Ignorable="d"
+        Title="Hardest Game" Height="700" Width="700">
+    <Window.Background>
+        <ImageBrush ImageSource="images/background.jpg"/>
+    </Window.Background>
+    <Canvas Name="Level1Canvas" KeyDown="CanvasKeyDown" KeyUp="CanvasKeyUp" Focusable="True" Margin="1,0,-1,0" >
+
+        <Rectangle Visibility="Hidden" x:Name="coin8" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="334" Canvas.Top="629"/>
+        <Rectangle Visibility="Hidden" x:Name="coin7" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="334" Canvas.Top="465"/>
+
+        <Rectangle Visibility="Hidden" x:Name="coin6" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="334" Canvas.Top="108"/>
+        <Rectangle Visibility="Hidden" x:Name="coin5" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="334" Canvas.Top="236"/>
+        <Rectangle Visibility="Hidden" x:Name="greenplace3" Tag="greenplace3" Width="110" Height="130" Fill="LightGreen" Canvas.Top="88" Stroke="Black" StrokeThickness="5" Canvas.Left="10" />
+        <Rectangle Visibility="Hidden" x:Name="startplace2" Tag="startplace2" Width="110" Height="130" Fill="LightGreen" Canvas.Top="529" Stroke="Black" StrokeThickness="5" />
+        <Rectangle Visibility="Hidden" x:Name="greenplace2" Tag="greenplace2" Width="94" Height="130" Fill="LightGreen" Canvas.Left="598" Canvas.Top="289" Stroke="Black" StrokeThickness="5" />
+        <Rectangle x:Name="greenplace" Tag="greenplace" Width="94" Height="130" Fill="LightGreen" Canvas.Left="598" Canvas.Top="289" Stroke="Black" StrokeThickness="5" />
+        <Rectangle x:Name="startplace" Tag="startplace" Width="110" Height="130" Fill="LightGreen" Canvas.Top="289" Stroke="Black" StrokeThickness="5" />
+        <Rectangle Tag="menu" Width="692" Height="83" Fill="White" Stroke="Black" StrokeThickness="5" />
+        <Label FontSize="25" x:Name="level" Foreground="Black" Content="Level : 1" FontWeight="Bold" Canvas.Left="34" Canvas.Top="21"/>
+        <Label FontSize="25" x:Name="leftCoin" Foreground="Black" Content=" LeftCoin : 1" FontWeight="Bold" Canvas.Left="259" Canvas.Top="21" Width="254"/>
+        <Label FontSize="25" x:Name="death" Foreground="Black" Content="Death : 0" FontWeight="Bold" Canvas.Left="518" Canvas.Top="21" Width="151"/>
+
+
+        <Rectangle x:Name="player" Tag="player" Width="30" Height="30" Fill="Red" Stroke="Black" StrokeThickness="5" Canvas.Left="49" Canvas.Top="335"/>
+        <Rectangle x:Name="coin" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="320" Canvas.Top="347"/>
+        <Rectangle x:Name="obstacle1" Tag="obstacle" Width="42" Height="42" Fill="blue"  Canvas.Left="216" Canvas.Top="335"/>
+        <Rectangle x:Name="obstacle2" Tag="obstacle" Width="42" Height="42" Fill="blue"  Canvas.Left="387" Canvas.Top="335"/>
+        <Rectangle Visibility="Hidden" x:Name="wall" Tag="obstacle" Width="55" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="127" Canvas.Top="169" Height="500"/>
+        <Rectangle Visibility="Hidden" x:Name="wall_Copy" Tag="obstacle" Width="55" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="292" Canvas.Top="83" Height="500"/>
+        <Rectangle Visibility="Hidden" x:Name="wall_Copy1" Tag="obstacle" Width="55" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="468" Canvas.Top="169" Height="500"/>
+        <Rectangle Visibility="Hidden" x:Name="coin2" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="350" Canvas.Top="629"/>
+        <Rectangle Visibility="Hidden" x:Name="coin3" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="152" Canvas.Top="88"/>
+        <Rectangle Visibility="Hidden" x:Name="coin4" Tag="coin" Width="30" Height="30" Fill="Yellow"  Canvas.Left="483" Canvas.Top="88"/>
+        <Rectangle Visibility="Hidden" x:Name="obstacle3" Tag="obstacle2" Width="42" Height="42" Fill="blue"  Canvas.Left="305" Canvas.Top="208"/>
+        <Rectangle Visibility="Hidden" x:Name="obstacle4" Tag="obstacle2" Width="42" Height="42" Fill="blue" Canvas.Top="500" Canvas.Left="308"/>
+        <Rectangle Visibility="Hidden" x:Name="obstacle5" Tag="obstacle3" Width="471" Height="40" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="127" Canvas.Top="144"/>
+        <Rectangle Visibility="Hidden"  x:Name="obstacle6" Tag="obstacle3" Width="471" Height="40" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="127" Canvas.Top="310"/>
+        <Rectangle Visibility="Hidden"  x:Name="obstacle7" Tag="obstacle3" Width="471" Height="40" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="127" Canvas.Top="392"/>
+        <Rectangle Visibility="Hidden"  x:Name="obstacle8" Tag="obstacle3" Width="471" Height="40" Fill="Blue" Stroke="Black" StrokeThickness="5" Canvas.Left="127" Canvas.Top="557"/>
+
+    </Canvas>
+
+</Window>
